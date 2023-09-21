@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+:root{
+    --font-ubuntu: 'Ubuntu', monospace;
+    --color-border: #33C9FF;
+    /* #e5e5e5; */
+}
+
+.font-ubuntu{
+    font: normal 500 16px var(--font-ubuntu);
+}
+
+#register, #login-form {
+    padding: 5% 0;
+    background: url("assets/background.png") no-repeat;
+   
+    background-size: cover;
+}
+
+#login-form{
+    padding: 10% 0;
+}
+
+
+
+#reg-form input[type='text'],
+#reg-form input[type='email'],
+#reg-form input[type='password'],
+#log-form input[type='text'],
+#log-form input[type='email'],
+#log-form input[type='password']{
+    border: none;
+    border-radius: unset;
+    border-bottom: 1px solid var(--color-border);
+    font-family: var(--font-ubuntu);
+}
+
+#reg-form input[type='text'],
+#reg-form input[type='email'],
+#reg-form input[type='password'],
+#log-form input[type='text'],
+#log-form input[type='email'],
+#log-form input[type='password']{
+    outline: none;
+    box-shadow: none;
+}
+
+
+
+
+
+
+
